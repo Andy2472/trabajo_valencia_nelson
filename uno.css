@@ -90,3 +90,10 @@
 }
 
 
+.menu_abajo{
+    width: 200px;
+    border: 1px solid green;
+    background-color: #49e83777;
+    padding: 30px;
+    
+}
