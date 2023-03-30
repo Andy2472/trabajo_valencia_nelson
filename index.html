@@ -1,34 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudiante programacion web</title>
+    <link rel="stylesheet" href="uno.css">
+    <title>ejercicios uno y dos</title>
 </head>
-<body>
-    <header style="color: red;">
-        Nelson Javier Valencia Castillo
-    </header>
-    <p>Hola mi nombre es Nelson, soy de la ciudad de Neiva y mis papás son Pedro José, y Doris Castillo.
-        Mi madre nació el 20 de octubre de 1959 y mi padre el 18 de octubre de 1950, mi familia es horiunda 
-        de Neiva al igual que yo.
-    </p>
 
-    <div style="display: flex; flex-direction: column;">
-        <a href="nueva.html">
-            Pagina ejercicio #3
-        </a>
-        <br>
-        <a href="glosario.html">
-            Pagina ejercicio #4
-        </a>
-        <a href="ejercicio5.html">
-            Pagina ejercicio #5
-        </a>
-        <a href="ejercicio6.html">
-            Pagina ejercicio #6
-        </a>
+<body>
+    <nav>
+        <ul>
+            <ol>
+                <li><a href="indexado.html">Ejercicio 1</a></li>
+                <li><a href="indexado.html">Ejercicio 2</a></li>
+                <li><a href="nueva.html">Ejercicio 3</a></li>
+                <li><a href="glosario.html">Ejercicio 4</a></li>
+                <li><a href="ejercicio5.html">Ejercicio 5</a></li>
+                <li><a href="ejercicio6.html">Ejercicio 6</a></li>
+            </ol>
+        </ul>
+    </nav>
+
+    <form action="#">
+        <div class="contenedor_formulario">
+            <div class="contenedoruno">
+                <h3>Nombre:</h3>
+                <input type="name">
+            </div>
+
+            <div class="contenedordos">
+                <h3>Apellidos: </h3>
+                <input type="name">
+            </div>
+
+            <div class="contenedortres">
+                <h3>Comentarios</h3>
+                <input type="text">
+            </div>
+
+            <div class="contenedorcuatro">
+                <h3>Género</h3>
+                <label>
+                    <input type="radio" name="opcion" value="opcion1"> Hombre
+                </label>
+                <label>
+                    <input type="radio" name="opcion" value="opcion2"> Mujer
+                </label>
+            </div>
+
+            <div class="contenedorcinco">
+                <button>
+                    Enviar
+                </button>
+                <button>
+                    Borrar
+                </button>
+            </div>
+        </div>
+    </form>
+    <div class="formulariodos">
+        <div class="contenedorseis">
+            <h3>Usuario:</h3>
+            <input type="name">
+        </div>
+
+        <div class="contenedorsiete">
+            <h3>Contraseña: </h3>
+            <input type="name">
+        </div>
+
+        <div class="contenedorocho">
+            <h3>Servicio musica: </h3>
+            <label>
+                <input type="checkbox" name="opcion1" value="opcion1"> Spotify
+              </label>
+              <label>
+                <input type="checkbox" name="opcion2" value="opcion2"> Last FM
+              </label>
+              <label>
+                <input type="checkbox" name="opcion2" value="opcion2"> Itunes
+              </label>
+        </div>
+        <div class="contenedornueve">
+            <input type="file" name="archivo">
+  <input type="submit" value="Enviar">
+  <input type="submit" value="Borrar">
+        </div>
+        <div class="contenedordiez">
+            <button>
+                Enviar
+            </button>
+            <button>
+                Borrar
+            </button>
+        </div>
+
     </div>
+
+    <a class="menu_abajo" href="dos.html">Link punto tres</a>
+    <a class="menu_abajo" href="tres.html">Link punto cuatro</a>
 </body>
+
 </html>
